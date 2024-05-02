@@ -21,7 +21,15 @@
                 - Container -> stock-market-real-time
                 - Authentication mode -> Connection String
                 - Storage account key -> YOUR STORAGE KEY
+                - Serialization -> Parquet
+                - Write mode -> Append as results arrive
+                - Directory path pattern -> tbl_stock_market_real_time/{date}/{time}/
+                - Date pattern -> yyyy-mm-dd
+                - Time pattern -> HH
+                - All configuration -> Default
 
+
+#### AZURE DATA LAKE GEN 2
 
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-AZURE.jpg)
