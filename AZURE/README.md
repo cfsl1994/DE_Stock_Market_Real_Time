@@ -1,6 +1,10 @@
 # Stock_Market_Real_Time
 ## Steps
 
+#### SCRIPT Azure_Stock_Market_Real_Time
+        - Send data reading from indexProcessed.csv to Azure EventHub
+        - name -> Azure_Stock_Market_Real_Time.ipynb 
+
 #### AZURE EVENT HUB:
 ###### Overview
         - Event Hubs Instance -> stock_market_real_time
