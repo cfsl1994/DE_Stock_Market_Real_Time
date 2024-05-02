@@ -47,7 +47,7 @@
         - name -> stock_market_real_time_db
         - source -> data external (STAGE ZONE STORAGE)
 
-###### tables athletes
+###### table stock_market_real_time
         - general:
             - name -> tbl_stock_market_real_time
             - link service -> YOUR WORKSPACE SYNAPSE 
