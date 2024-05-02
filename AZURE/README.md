@@ -30,6 +30,14 @@
 
 
 #### AZURE DATA LAKE GEN 2
+###### General Configuration
+        - STORAGE ACCOUNT -> YOUR STAGE ZONE STORAGE ACCOUNT
+        - Container -> stock-market-real-time
+        - Folder -> tbl_stock_market_real_time 
+
+
+#### AZURE SINAPSE ANALYTICS
+###### 
 
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-AZURE.jpg)
