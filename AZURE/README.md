@@ -37,7 +37,24 @@
 
 
 #### AZURE SINAPSE ANALYTICS
-###### 
+###### General Configuration 
+        - name -> data-engineering-synap
+        - type -> synapse workspace
+        - resource group -> data-engineering
+        - subscription -> YOUR SUBSCRIPTION
+
+###### DATA BASE LAKE
+        - name -> stock_market_real_time_db
+        - source -> data external (STAGE ZONE STORAGE)
+
+###### tables athletes
+        - general:
+            - name -> tbl_stock_market_real_time
+            - link service -> YOUR WORKSPACE SYNAPSE 
+            - folder -> stock-market-real-time/tbl_stock_market_real_time
+            - data format -> parquet
+            - compression -> none
+
 
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-AZURE.jpg)
