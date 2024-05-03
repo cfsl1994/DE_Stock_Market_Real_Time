@@ -49,7 +49,16 @@
 #### AWS GLUE CATALOG
         - database -> stock-market-real-time-db
 
-#### AWS REDSHIFT
+#### AWS REDSHIFT SERVERLESS
+        - Namespace -> stock-market-real-time-namespace
+        - Workgroup -> stock-market-real-time-workgroup
+
+###### Query Editor v2
+        - Serverless -> stock-market-real-time-workgroup
+        - data catalog ->  awsdatacatalog (Create using AWS Glue Data Catalog)
+        - database named -> stock-market-real-time-db
+        - tables -> tbl_stock_market_reak_time
+
 
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-AWS.jpg)
