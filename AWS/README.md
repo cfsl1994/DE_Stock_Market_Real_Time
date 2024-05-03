@@ -3,7 +3,7 @@
 
 #### SCRIPT Aws_Stock_Market_Real_Time
         - Send data reading from indexProcessed.csv to Azure EventHub
-        - name -> Azure_Stock_Market_Real_Time.ipynb 
+        - name -> Aws_Stock_Market_Real_Time.ipynb 
 
 #### AWS KINESIS:
 ######
