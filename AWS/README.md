@@ -23,6 +23,33 @@
 
 ###### DATA TARGET PROPERTIES
         - name -> amazon s3
+        - node parents -> amazon kinesis
+        - format -> parquet
+        - compression type -> snappy
+        - s3 target location -> YOUR STAGE ZONE BUCKET
+        - all conifiguration -> default
+
+#### AWS S3
+###### BUCKET
+        - bucket -> YOUR STAGE ZONE BUCKET
+        - sub directory -> stock_market_real_time
+
+#### AWS GLUE CRAWLER
+###### PROPERTIES
+        - name -> stock_market_real_time_crawler
+        - iam role -> YOUR IAM ROLE
+        - database -> stock-market-real-time-db
+        - table prefix -> tbl_
+
+###### DATA SOURCE
+        - type -> s3
+        - data source -> s3://YOUR STAGE ZONE BUCKET/stock-market-real-time
+        - parameters -> recrawl all
+
+#### AWS GLUE CATALOG
+        - database -> stock-market-real-time-db
+
+#### AWS REDSHIFT
 
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-AWS.jpg)
