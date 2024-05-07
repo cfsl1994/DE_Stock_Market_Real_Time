@@ -20,5 +20,18 @@
         - storage clase -> standar
         - object -> stock_market_real_time
 
+#### GCP BIGQUERY
+###### DB
+        name -> stock_market_real_time_db
+
+###### DATASET TBL_ATHLETES
+    - Id table -> YOUR SERVICE ACCOUNT/stock_market_real_time_db.tbl_stock_market_real_time
+    - External storage
+        - uri source -> gs://YOUR DATA STAGE ZONE/stock_market_real_time/
+    - Format -> CSV
+    - Detection schema -> true
+    - Tag -> YOUR SERVICE ACCOUNT/stock_market_real_time_tag:stock_market_real_time_tag
+
+
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-GCP.jpg)
