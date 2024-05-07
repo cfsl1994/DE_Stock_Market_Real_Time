@@ -15,5 +15,10 @@
 #### GCP DATAFLOW WORKBENCH
         - script -> stock_market_real_time_dataflow.py
 
+#### STAGE ZONE STORAGE
+        - google storage -> YOUR STAGE ZONE STORAGE
+        - storage clase -> standar
+        - object -> stock_market_real_time
+
 ## Architecture-Diagram
 ![Architecture-Diagram](Stock-Market-Real-Time-Azure-GCP.jpg)
