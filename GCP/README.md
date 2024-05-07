@@ -24,7 +24,7 @@
 ###### DB
         name -> stock_market_real_time_db
 
-###### DATASET TBL_ATHLETES
+###### DATASET tbl_stock_market_real_time
     - Id table -> YOUR SERVICE ACCOUNT/stock_market_real_time_db.tbl_stock_market_real_time
     - External storage
         - uri source -> gs://YOUR DATA STAGE ZONE/stock_market_real_time/
